@@ -1,0 +1,26 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (download separately)
+data/
+*.zip
+
+# Trained models
+models/
+*.pth
+*.pt
+*.onnx
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
